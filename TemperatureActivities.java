@@ -9,16 +9,16 @@ public class TemperatureActivities {
 		
 		System.out.print ("Enter the temperature: ");
 		temp = scan.nextDouble();
-		if (temp >= 80)
+		if (temp >= 80 && temp <= 95)
 			System.out.print ("Swimming!");
 		if (temp >= 60 && temp < 80)
 			System.out.print ("Tennis!");
 		if (temp >= 40 && temp <60)
 			System.out.print("Golf!");
-		if (temp < 40)
+		if (temp < 40 && temp >= 20)
 			System.out.print("Skiing!");
 		if (temp >95 || temp < 20)
-			System.out.println(" And check out our shops!");
+			System.out.println("check out our shops!");
 			
 	}
 
